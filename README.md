@@ -12,5 +12,6 @@ In order to make this script run periodically, you need to define it as a cron j
 
 ### Configuration
 The `*/120` part of the crontab means this script will run 120 times in a minute (every 30 seconds). Feel free to change this parameter to suit your needs.
+
 The script itself is set to launch screen saver after 60 seconds of inactivity. It's defined within the script in an easy-to-change variable.
 
