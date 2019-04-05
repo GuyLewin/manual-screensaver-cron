@@ -1,6 +1,7 @@
 # manual-screensaver-cron
 This cron job is intended for people who want their Mac to auto-lock after inactivity period, but can't define the Screen Saver "Start after:" parameter (in my case - because of a Mac configuration profile enforced by my employer). 
 It requires you [set your Mac to lock when screen saver starts](http://lewin.co.il/?p=55).
+Your Mac won't lock if there's something preventing it from sleeping, like watching a video.
 
 ### Installation
   1. Copy `screensaver_cron.sh` to your favorite executable path (e.g `~/bin/screensaver_cron.sh`)
